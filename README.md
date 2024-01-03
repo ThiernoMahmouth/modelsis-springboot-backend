@@ -9,4 +9,9 @@ La tack utilisée est:
 - Postgres 14
 
 
+  Pour exécuter le projet, il faut exécuter les commandes ci-après dans le répertoire product-service:
+  ./mvnw clean package -DskipTests
+  docker-compose up
+
+
   
