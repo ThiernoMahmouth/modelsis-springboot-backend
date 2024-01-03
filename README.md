@@ -10,8 +10,10 @@ La tack utilisée est:
 
 
   Pour exécuter le projet, il faut exécuter les commandes ci-après dans le répertoire product-service:
-  - ./mvnw clean package -DskipTests
-  - docker-compose up
+  ## ./mvn spring-boot:run
+  ## Ou en exécutant le jar (java -jar  product-service-0.0.1-SNAPSHOT.jar
+  ### L'installation via docker-compose n'a pas pu être terminée malheureusement
 
-
-  
+  Après installation les tests peuvent être fait via:
+  - SWAGGER: http://localhost:8099/swagger-ui/index.html#/
+  - POSTMAN: http://localhost:8099/api/v1/product (par exple)
